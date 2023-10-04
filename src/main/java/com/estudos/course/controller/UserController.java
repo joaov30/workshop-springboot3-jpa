@@ -1,4 +1,4 @@
-package com.estudos.course.resources;
+package com.estudos.course.controller;
 
 import com.estudos.course.entities.User;
 import com.estudos.course.services.UserService;
@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/users")
-public class UserResources {
+public class UserController {
 
     @Autowired
     private UserService service;

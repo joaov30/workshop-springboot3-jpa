@@ -1,4 +1,4 @@
-package com.estudos.course.resources;
+package com.estudos.course.controller;
 
 import com.estudos.course.entities.Category;
 import com.estudos.course.services.CategoryService;
@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/categories")
-public class CategoryResources {
+public class CategoryController {
 
     @Autowired
     private CategoryService service;

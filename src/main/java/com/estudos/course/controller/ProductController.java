@@ -1,4 +1,4 @@
-package com.estudos.course.resources;
+package com.estudos.course.controller;
 
 import com.estudos.course.entities.Product;
 import com.estudos.course.services.ProductService;
@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/products")
-public class ProductResources {
+public class ProductController {
 
     @Autowired
     private ProductService service;
